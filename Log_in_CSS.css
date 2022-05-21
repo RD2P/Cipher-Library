@@ -1,0 +1,79 @@
+body{
+    background-color:rgb(30,30,30);
+    font-family:'Courier New', Courier, monospace
+}
+.center{
+    padding: 5% 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+form{
+    background-image: url('./images/library.jpg');
+    background-size: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    padding: 20px;
+    text-align:center;
+    color:green;
+}
+h1{
+    text-align:center;
+    color:green;
+    position: sticky;
+    top: 5px;
+    background-color: rgb(30,30,30);
+}
+p{
+    text-align:center;
+    color:green;
+}
+label{
+    display: inline-block;
+    background-color: black;
+    border:1px solid white;
+    margin: 5px;
+}
+
+button{
+    padding: 2px;
+    margin-top: 5px;
+    background-color: rgb(30,30,30);
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+}
+button:hover{
+    color: white;
+    background-color: rgb(30,130,30);
+}
+img{
+    display: block;
+    margin: auto;
+}
+#abu_div{
+    position: relative;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+#face1{
+    position: absolute;
+    /*background-color: rgb(28, 126, 212);*/
+    z-index: 2;
+    width: 8%;
+    height: 15%;
+    top: 8%;
+    left: 18%;
+}
+#face2{
+    position: absolute;
+    /*background-color: rgb(233, 15, 15);*/
+    z-index: 1;
+    width: 8%;
+    height: 15%;
+    top: 20%;
+    right: 30%;
+}
