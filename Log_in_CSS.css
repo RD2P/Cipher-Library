@@ -18,6 +18,13 @@ form{
     text-align:center;
     color:green;
 }
+.form-control.success input {
+    border-color: #2ecc71;
+}
+.form-control.error input {
+    border-color: #e74c3c;
+}
+
 h1{
     text-align:center;
     color:green;
